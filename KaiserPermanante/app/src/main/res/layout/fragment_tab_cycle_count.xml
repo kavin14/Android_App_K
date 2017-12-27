@@ -7,6 +7,8 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+
+
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -41,7 +43,7 @@
             android:background="@drawable/txt_box_border_rounded"
             android:drawableLeft="@android:drawable/ic_btn_speak_now"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:hint="@string/enter_password"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

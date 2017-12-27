@@ -54,7 +54,6 @@ public class TabCycleCount extends Fragment {
         login.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Hello",Toast.LENGTH_SHORT).show();
                 if(userName.getText().length() == 0 || password.getText().length() == 0){
                     popUpShow("User name cannot be empty");
                 }else{

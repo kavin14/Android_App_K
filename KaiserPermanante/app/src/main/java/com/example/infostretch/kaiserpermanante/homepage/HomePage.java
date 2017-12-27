@@ -48,13 +48,11 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
         switch (item.getItemId()) {
 
             case R.id.logout: {
-                Toast.makeText(this,"Hloee",Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(HomePage.this, MainActivity.class);
                 startActivity(i);
                 break;
             }
         }
-        //close navigation drawer
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }

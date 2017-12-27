@@ -11,8 +11,6 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/thumbnail"
-        android:layout_toRightOf="@+id/thumbnail"
         android:fontFamily="sans-serif-condensed"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
